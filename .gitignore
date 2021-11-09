@@ -1,0 +1,4 @@
+# node_module will not upload to the GitHub
+node_modules/
+# avoiding system files
+.DS_Store/
