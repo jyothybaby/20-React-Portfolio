@@ -15,7 +15,7 @@
       "zip": "32256"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "https://drive.google.com/file/d/1VkqdXZ4KUkTeD4gSs6D0SGsJuzfvK84Z/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -48,14 +48,26 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
+        "school": "Georgia Institute of Technology",
+        "degree": "Coding - FullStack Development",
+        "graduated": "December 2021",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
+        "school": "Calicut University, Kerala, India",
+        "degree": "Masters In Embedded Systems Engineering",
+        "graduated": "July 2012",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "Anna University, Chennai, India",
+        "degree": "Bachelors in Electronics and Communication Engineering",
+        "graduated": "March 2007",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "Board Of Technical Education",
+        "degree": "Diploma / Associates",
         "graduated": "March 2003",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
