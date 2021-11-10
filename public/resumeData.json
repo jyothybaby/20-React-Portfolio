@@ -122,35 +122,50 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "TrailFiner",
+        "category": "Academic Project",
+        "image": "TrailFinder.png",
+        "url": "https://jyothybaby.github.io/Trail-Finder"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Bookworm Haven",
+        "category": "Academic Project",
+        "image": "Project2-bookworm1.png",
+        "url": "https://stark-wildwood-15294.herokuapp.com/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "TechBlog",
+        "category": "Academic HomeWork",
+        "image": "TechBlog.png",
+        "url": "https://blooming-tundra-10282.herokuapp.com/"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Weather Dashboard",
+        "category": "Academic HomeWork",
+        "image": "Weather.png",
+        "url": "https://jyothybaby.github.io/06-Weather-Dashboard/"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Workday Scheduler",
+        "category": "Academic HomeWork",
+        "image": "Workday-scheduler.png",
+        "url": "https://jyothybaby.github.io/05-Work-Day-Scheduler/"
+      },
+      {
+        "title": "Fitness Tracker",
+        "category": "Academic HomeWork",
+        "image": "fitnessTracker.JPG",
+        "url": "https://workouttracker-jb.herokuapp.com/"
+      },
+      {
+        "title": "Budget Tracker",
+        "category": "Academic HomeWork",
+        "image": "BudgetTracker.JPG",
+        "url": " https://protected-hamlet-53461.herokuapp.com/"
       }
+      
+
+      
     ]
   },
   "testimonials": {
