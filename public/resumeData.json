@@ -122,46 +122,53 @@
   "portfolio": {
     "projects": [
       {
-        "title": "TrailFiner",
+        "title": "TrailFinder",
         "category": "Academic Project",
         "image": "TrailFinder.png",
-        "url": "https://jyothybaby.github.io/Trail-Finder"
+        "url": "https://jyothybaby.github.io/Trail-Finder",
+        "github_url": "https://github.com/jyothybaby/Trail-Finder"
       },
       {
         "title": "Bookworm Haven",
         "category": "Academic Project",
         "image": "Project2-bookworm1.png",
-        "url": "https://stark-wildwood-15294.herokuapp.com/"
+        "url": "https://stark-wildwood-15294.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/Bookworm-Haven"
       },
       {
         "title": "TechBlog",
         "category": "Academic HomeWork",
         "image": "TechBlog.png",
-        "url": "https://blooming-tundra-10282.herokuapp.com/"
+        "url": "https://blooming-tundra-10282.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/14-Tech-Blog-MVC"
       },
       {
         "title": "Weather Dashboard",
         "category": "Academic HomeWork",
         "image": "Weather.png",
-        "url": "https://jyothybaby.github.io/06-Weather-Dashboard/"
+        "url": "https://jyothybaby.github.io/06-Weather-Dashboard/",
+        "github_url": "https://github.com/jyothybaby/06-Weather-Dashboard"
       },
       {
         "title": "Workday Scheduler",
         "category": "Academic HomeWork",
         "image": "Workday-scheduler.png",
-        "url": "https://jyothybaby.github.io/05-Work-Day-Scheduler/"
+        "url": "https://jyothybaby.github.io/05-Work-Day-Scheduler/",
+        "github_url": "https://github.com/jyothybaby/05-Work-Day-Scheduler"
       },
       {
         "title": "Fitness Tracker",
         "category": "Academic HomeWork",
         "image": "fitnessTracker.JPG",
-        "url": "https://workouttracker-jb.herokuapp.com/"
+        "url": "https://workouttracker-jb.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/18-Nosql-Workout-Tracker"
       },
       {
         "title": "Budget Tracker",
         "category": "Academic HomeWork",
         "image": "BudgetTracker.JPG",
-        "url": " https://protected-hamlet-53461.herokuapp.com/"
+        "url": " https://protected-hamlet-53461.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/19-Budget-Tracker-PWA"
       }
       
 
