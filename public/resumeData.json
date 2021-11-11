@@ -46,25 +46,25 @@
         "school": "Georgia Institute of Technology",
         "degree": "Coding - FullStack Development",
         "graduated": "December 2021",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Learned FullStack Development using HTML, CSS, JavaScript, Node.js, Express.js,Databases(MySQL, MongoDB), React.js. Completed 3 Academic projects sucessfully."
       },
       {
         "school": "Calicut University, Kerala, India",
         "degree": "Masters In Embedded Systems Engineering",
         "graduated": "July 2012",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Learned Embedded Systems Programming using C, VLSI Design using HDL langualges (Verilog and VHDL), various Control systems"
       },
       {
         "school": "Anna University, Chennai, India",
         "degree": "Bachelors in Electronics and Communication Engineering",
         "graduated": "March 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Learned Digital system design, Electronic circuits, Programming, Digital systems design and Communication systems etc."
       },
       {
         "school": "Board Of Technical Education",
         "degree": "Diploma / Associates",
         "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "Learned The Basic programming from here, learned ANSI C, C++, Systems Engineering, Hardware Engineering, Computer Architecture etc."
       }
     ],
     "work": [
@@ -94,7 +94,7 @@
         "level": "80%"
       },
       {
-        "name": "CSS",
+        "name": "CSS3",
         "level": "80%"
       },
       {
@@ -106,16 +106,28 @@
         "level": "60%"
       },
       {
+        "name": "Express.Js",
+        "level": "60%"
+      },
+      {
         "name": "Database (SQL/NoSQL)",
         "level": "70%"
       },
       {
-        "name": "React",
+        "name": "React.js",
         "level": "50%"
       },
       {
         "name": "Git",
         "level": "50%"
+      },
+      {
+        "name": "Command Line (bash/cmd)",
+        "level": "70%"
+      },
+      {
+        "name": "Agile methodology",
+        "level": "80%"
       }
     ]
   },
@@ -173,18 +185,6 @@
       
 
       
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
     ]
   }
 }
