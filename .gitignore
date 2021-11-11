@@ -2,3 +2,4 @@
 node_modules/
 # avoiding system files
 .DS_Store/
+bulid/
