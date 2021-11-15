@@ -25,16 +25,7 @@ class Contact extends Component {
       var message = this.props.data.contactmessage;
     }
 
-   // var contactName = '';
-   // var contactEmail = '';
-   // var contactMessage = '';
-   // const [contactName, setContactName] = useState('');
-   // const [contactEmail, setContactEmail] = useState('');
-   // const [contactMessage, setContactMessage] = useState('');
-
    
-
-
    const handleInputChange = (e) => {
       // Getting the value and name of the input which triggered the change
       const { target } = e;
@@ -49,27 +40,27 @@ class Contact extends Component {
       } else if (inputType === 'contactMessage') {
          this.setState({contactMessage: inputValue});
       }
-      console.log(this.state)
     };
 
     const handleFormSubmit = (e) => {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       e.preventDefault();
 
-      
-      // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+      // First we check to see if the email is not valid
       if (!validateEmail(this.state.contactEmail)) {
          this.setState({invalidEmail: true});
-         // We want to exit out of this code block if something is wrong so that the user can correct it
          return;
-         // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-       }else{
+      } else {
          this.setState({invalidEmail: false});
-       }
-
+      }
       
-      // If everything goes according to plan, we want to clear out the input after a successful registration.
-      this.setState({contactSuccess: true});
+      if(this.state.contactName !== '' && this.state.contactEmail !== '' && this.state.contactMessage !== '' && this.state.invalidEmail === false){
+         // If everything goes according to plan, we want to clear out the input after a successful registration.
+         this.setState({contactSuccess: true});
+      } else {
+         this.setState({contactSuccess: false});
+      }
+      return;
     }; 
  
     function validateEmail(email) {
