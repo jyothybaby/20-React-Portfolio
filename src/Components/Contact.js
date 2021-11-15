@@ -128,9 +128,9 @@ class Contact extends Component {
 
                   <div>
                      <button className="submit" onClick={handleFormSubmit}>Submit</button>
-                     <span id="image-loader">
+                     {/* <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
-                     </span>
+                     </span> */}
                   </div>
                   {this.state.contactSuccess && <div className="contactSuccessMsg">Contact request sent successfully</div>}
 					</fieldset>
