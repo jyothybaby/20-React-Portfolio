@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+
+   constructor(props) {
+      super(props);
+      this.state = { 
+         contactName: '',
+         contactEmail: '',
+         contactMessage: '',
+         invalidEmail: false,
+         contactSuccess: false
+      }
+    }
    
   render() {
 
@@ -11,13 +22,17 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
-      var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
-   var contactName = '';
-   var contactEmail = '';
-   var contactMessage = '';
+   // var contactName = '';
+   // var contactEmail = '';
+   // var contactMessage = '';
+   // const [contactName, setContactName] = useState('');
+   // const [contactEmail, setContactEmail] = useState('');
+   // const [contactMessage, setContactMessage] = useState('');
+
+   
 
 
    const handleInputChange = (e) => {
@@ -28,46 +43,33 @@ class Contact extends Component {
   
       // Based on the input type, we set the state of either email, username, and password
       if (inputType === 'contactEmail') {
-         contactEmail = inputValue;
+         this.setState({contactEmail: inputValue});
       } else if (inputType === 'contactName') {
-         contactName = inputValue;
+         this.setState({contactName: inputValue});
       } else if (inputType === 'contactMessage') {
-         contactMessage = inputValue;
+         this.setState({contactMessage: inputValue});
       }
+      console.log(this.state)
     };
 
     const handleFormSubmit = (e) => {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       e.preventDefault();
 
-      if(contactName == ''){
-         alert('Name is mandatory');
-         return;
-      }
-
-      if(contactEmail == ''){
-         alert('Email is mandatory');
-         return;
-      }
-
+      
       // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-      if (!validateEmail(contactEmail)) {
-         alert( 'Email is invalid');
-         
+      if (!validateEmail(this.state.contactEmail)) {
+         this.setState({invalidEmail: true});
          // We want to exit out of this code block if something is wrong so that the user can correct it
          return;
          // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+       }else{
+         this.setState({invalidEmail: false});
        }
 
-      if(contactMessage == ''){
-         alert('Message is mandatory');
-         return;
-      }
-  
-      alert('Contact request sent successfully');
       
       // If everything goes according to plan, we want to clear out the input after a successful registration.
-      //contactEmail = '';
+      this.setState({contactSuccess: true});
     }; 
  
     function validateEmail(email) {
@@ -104,11 +106,14 @@ class Contact extends Component {
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={handleInputChange} />
                   </div>
+                  {this.state.contactName === '' && <div className="contactErrorMsg">Name is mandatory</div>}
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={handleInputChange} />
                   </div>
+                  {this.state.contactEmail === '' && <div className="contactErrorMsg">Email is mandatory</div>}
+                  {this.state.invalidEmail && <div className="contactErrorMsg">Invalid Email</div>}
 
                   {/* <div>
 						   <label htmlFor="contactSubject">Subject</label>
@@ -119,6 +124,7 @@ class Contact extends Component {
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" onChange={handleInputChange}></textarea>
                   </div>
+                  {this.state.contactMessage === '' && <div className="contactErrorMsg">Message is mandatory</div>}
 
                   <div>
                      <button className="submit" onClick={handleFormSubmit}>Submit</button>
@@ -126,6 +132,7 @@ class Contact extends Component {
                         <img alt="" src="images/loader.gif" />
                      </span>
                   </div>
+                  {this.state.contactSuccess && <div className="contactSuccessMsg">Contact request sent successfully</div>}
 					</fieldset>
 				   </form>
 
