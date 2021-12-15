@@ -46,7 +46,7 @@
         "school": "Georgia Institute of Technology",
         "degree": "Coding - FullStack Development",
         "graduated": "December 2021",
-        "description": "Learned FullStack Development using HTML, CSS, JavaScript, Node.js, Express.js,Databases(MySQL, MongoDB), React.js. Completed 3 Academic projects sucessfully."
+        "description": "Learned FullStack Development using HTML, CSS, JavaScript, Node.js, Express.js,Databases(MySQL, MongoDB), React.js,GraphQL. Completed 3 Academic projects sucessfully."
       },
       {
         "school": "Calicut University, Kerala, India",
@@ -128,7 +128,12 @@
       {
         "name": "Agile methodology",
         "level": "80%"
+      },
+      {
+        "name": "GraphQL",
+        "level": "50%"
       }
+
     ]
   },
   "portfolio": {
@@ -146,6 +151,13 @@
         "image": "Project2-bookworm1.png",
         "url": "https://stark-wildwood-15294.herokuapp.com/",
         "github_url": "https://github.com/jyothybaby/Bookworm-Haven"
+      },
+      {
+        "title": "TasteBytes",
+        "category": "Academic Project",
+        "image": "Project3-TasteBytes.png",
+        "url": "https://salty-lake-29216.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/TasteBytes"
       },
       {
         "title": "TechBlog",
@@ -181,7 +193,15 @@
         "image": "BudgetTracker.JPG",
         "url": " https://protected-hamlet-53461.herokuapp.com/",
         "github_url": "https://github.com/jyothybaby/19-Budget-Tracker-PWA"
+      },
+      {
+        "title": "Book Search Engine-MERN Stack",
+        "category": "Academic HomeWork",
+        "image": "booksearchMERN.JPG",
+        "url": "  https://still-brushlands-03349.herokuapp.com/",
+        "github_url": "https://github.com/jyothybaby/21-Book-Search-Engine-MERN"
       }
+      
       
 
       
