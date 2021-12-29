@@ -11,6 +11,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Dependencies
 npm install
+npm start & npm run deploy
 
 ![screen-1](https://github.com/jyothybaby/20-React-Portfolio/blob/main/screenshots/Capture1.JPG)<br>
 ![screen-2](https://github.com/jyothybaby/20-React-Portfolio/blob/main/screenshots/Capture2.JPG)<br>
