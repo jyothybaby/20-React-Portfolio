@@ -49,13 +49,13 @@
         "description": "Learned FullStack Development using HTML, CSS, JavaScript, Node.js, Express.js,Databases(MySQL, MongoDB), React.js,GraphQL. Completed 3 Academic projects sucessfully."
       },
       {
-        "school": "Calicut University, Kerala, India",
+        "school": "Calicut University",
         "degree": "Masters In Embedded Systems Engineering",
         "graduated": "July 2012",
         "description": "Learned Embedded Systems Programming using C, VLSI Design using HDL langualges (Verilog and VHDL), various Control systems"
       },
       {
-        "school": "Anna University, Chennai, India",
+        "school": "Anna University",
         "degree": "Bachelors in Electronics and Communication Engineering",
         "graduated": "March 2007",
         "description": "Learned Digital system design, Electronic circuits, Programming, Digital systems design and Communication systems etc."
@@ -69,23 +69,24 @@
     ],
     "work": [
       {
+        "company": "Coding BootCamp-Georgia Institute Of Technology, Atlanta",
+        "title": "Full Stack Software Development ",
+        "years": "July 2021 - December 2021",
+        "description": "I have developed numerous applications from scratch and have a wide variety of tech skills in all areas of SDLC. Learned different technlogies like using HTML, CSS, JavaScript, Node.js, Express.js, MySQL,MongoDB, React, GraphQL, JWT, Apollo Server,JSON."
+      },
+      {
         "company": "OnPay Solutions, Jacksonville, Florida",
         "title": "Quality Assurance and Development Support ",
         "years": "December 2017 - July 2019",
         "description": "Worked with the software development and business teams to understand the software system, business process flows and project objectives, Worked with the software development team to develop new or enhance software features for OnPayConnect, Worked closely with production support team in troubleshooting issues and identifying root cause , Test features for OnPayConnect A/R’s Remittance payable automation function, Overall responsible for Integration and User Acceptance Testing, Recorded, maintained & tracked defects, assigned type & priority/severity levels, Offshore coordination and defect management, Developed automation script for PGP encryption, decryption, and digital signature. "
       },
       {
-        "company": "St. Joseph’s College of Engineering and Technology, Palai, Kerala, India",
+        "company": "St. Joseph’s College of Engineering and Technology, India",
         "title": "Assistant Professor",
         "years": "January 2008 - August 2010",
         "description": "Responsible for planning, developing, and implementing innovative instructional methods and lecture materials for the under-graduate academic curriculum, Guided, directed, and mentored the undergraduate students in their academic courses, lab sessions, seminars and research projects, Assessed, supervised, reviewed, and evaluated the academic progress in undergraduate students. "
-      },
-      {
-        "company": "Kerala State Electricity Board, Alleppey, Kerala, India",
-        "title": "Substation Engineer",
-        "years": "June 2007 - January 2008",
-        "description": "Responsible for monitoring the electrical power transmission and distribution system and communicated the fault incidents to the corresponding department, Measured the efficiency and utilization of electrical power transmission and distribution system and prepared power usage daily reports, Inspected completed installations and observed operations to ensure conformance to design and equipment specifications and compliance with operational, safety, or environmental standards,Investigated customer or public complaints to determine the nature and extent of problems. "
       }
+      
     ],
     "skills": [
       
