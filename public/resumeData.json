@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Jyothy V Baby",
-    "occupation": "Bootcamp-Coding- Fullstack Development Graduate from Georgia Institute of Technology, Atlanta Campus.",
-    "description": "Seeking to learn and master the art of software engineering. I did bachelors in Electronics and Communications Engineering and Masters in Embedded Systems.",
+    "occupation": "Coding Bootcamp Full Stack Software Development Graduate from Georgia Institute of Technology, Atlanta Campus.",
+    "description": "Seeking to learn and master the art of software engineering. I did bachelors in Electronics and Communications Engineering and Masters in Embedded Systems Engineering.",
     "image": "profilepic.jpg",
-    "bio": "Aspiring software engineer looking for an opportunity to learn and contribute to the software engineering community.",
+    "bio": "Aspiring Full Stack Software Engineer looking for an opportunity to learn and contribute to the software engineering community.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "jyothy.v.baby@gmail.com",
     "phone": "904-881-8484",
@@ -43,16 +43,16 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "Georgia Institute of Technology",
-        "degree": "Coding - FullStack Development",
+        "school": "Georgia Institute of Technology, Atlanta",
+        "degree": "Coding Bootcamp - Full Stack Development",
         "graduated": "December 2021",
-        "description": "Learned FullStack Development using HTML, CSS, JavaScript, Node.js, Express.js,Databases(MySQL, MongoDB), React.js,GraphQL. Completed 3 Academic projects sucessfully."
+        "description": "Learned Full Stack Development using HTML, CSS, JavaScript, Node.js, Express.js, Databases(MySQL, MongoDB), React.js,GraphQL. Successfully completed 3 academic projects."
       },
       {
         "school": "Calicut University",
         "degree": "Masters In Embedded Systems Engineering",
         "graduated": "July 2012",
-        "description": "Learned Embedded Systems Programming using C, VLSI Design using HDL langualges (Verilog and VHDL), various Control systems"
+        "description": "Learned Embedded Systems Programming using C, VLSI Design using HDL languages (Verilog and VHDL), various Control systems."
       },
       {
         "school": "Anna University",
@@ -72,7 +72,7 @@
         "company": "Coding BootCamp-Georgia Institute Of Technology, Atlanta",
         "title": "Full Stack Software Development ",
         "years": "July 2021 - December 2021",
-        "description": "I have developed numerous applications from scratch and have a wide variety of tech skills in all areas of SDLC. Learned different technlogies like using HTML, CSS, JavaScript, Node.js, Express.js, MySQL,MongoDB, React, GraphQL, JWT, Apollo Server,JSON."
+        "description": "I have developed numerous applications from scratch and have a wide variety of tech skills in all areas of SDLC. Learned different technlogies like HTML, CSS, JavaScript, Node.js, Express.js, MySQL,MongoDB, React, GraphQL, JWT, Apollo Server,JSON etc. All my projects/homeworks are available in the GitHub Repositories for review. "
       },
       {
         "company": "OnPay Solutions, Jacksonville, Florida",
